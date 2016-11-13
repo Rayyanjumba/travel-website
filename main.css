@@ -1,9 +1,12 @@
-/* Caroousel  */
+/* Carousel  */
 
-.carousel-inner img{
-  width:100%;
-  max-height: 750px !important;
+.carousel .carousel-inner img {
+  max-width: 1200px;
+  max-height: 600px;
+  object-fit: cover;
+  overflow: hidden;
 }
+
 
 @media (max-width: 600px) {
     .carousel-caption {
@@ -12,7 +15,7 @@
 
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
 }
 
@@ -34,7 +37,7 @@ h6, .h6 {
  * Blog name and description
  */
 
-.blog-header {
+.page-header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -89,9 +92,8 @@ h6, .h6 {
 }
 
 
-/*
- * Blog posts
- */
+
+ /* Blog posts */
 
 .blog-post {
   margin-bottom: 60px;
@@ -106,9 +108,7 @@ h6, .h6 {
 }
 
 
-/*
- * Footer
- */
+/* Footer */
 
 .blog-footer {
   padding: 40px 0;
