@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <title>The Travelling Kiwi</title>
@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300|Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="script.js"></script>
   </head>
 
 <body>   
+
+<!-- NAVIGATION -->
+
   <!-- Navbar -->
   <div class="navbar-wrapper">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
+
   <!-- Logo and Hamburger-->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
@@ -29,15 +34,15 @@
     </div>
     </div>
 
-
   <!-- Menu Items -->
     <div class="collapse navbar-collapse" id="mainNavBar">
       <ul class="nav navbar-nav">
        <li class="active"><a href="#">Home</a></li>
        <li><a href="#">About</a></li>
-       <li><a href="#">Contact</a></li>
+     <li><a href="#">Contact</a></li>
 
   <!-- Drop down menu 1-->
+
        <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -51,6 +56,7 @@
         </li>
 
   <!-- Drop down menu 2-->
+
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">How to London <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -61,24 +67,24 @@
               <li><a href="#">When You Leave</a></li>
               <li><a href="#">You're Home ... Now What?</a></li>
              </ul>
-           </li>
-        </ul>
+          </li>
 
-  <!-- Email sign up form on right-->
+          </ul>
+  <!-- Buttons on right-->
+
+
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-   <form class="navbar-form navbar-left">
-       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-       </div>
-       <button type="submit" class="btn btn-danger">Submit</button>
-    </form>
     </ul>
-  </div>
-  </div>
-  </nav>
-  </nav>
+ 
+
+          </div> <!-- Wrapper-->
+          </nav> <!-- Inverse-->
+          </div> <!-- Container fluid-->
+          
+
+<!-- CAROUSEL-->
 
 <!-- Carousel-->
 <div class="container-fluid" style="padding: 0;">
@@ -134,9 +140,8 @@
       </div>
     </div>
   </div>
+  </div>
  
-
-
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -148,6 +153,8 @@
   </a>
 </div>
 
+<!-- BLOG HEADER AND CONTENT-->
+
 <!-- Text-->
    <div class="container">
 
@@ -157,6 +164,7 @@
       </div>
 
       <div class="row">
+      </div>
 
         <div class="col-md-8 blog-main">
 
@@ -189,55 +197,72 @@
         </div>
 
         </div> 
+        
+
+<!-- SIDE BAR-->
 
 <!-- Profile-->
-        <div class="col-md-4 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <img class="img-thumbnail" src="https://rawgit.com/helen-anderson/travel-website/master/img/Helen-headshot-blog.jpg" alt="Helen">
-            <br/>
-            <br/>
-
-<!-- Social Buttons -->
-   <div class="social-btn-holder">
-    <div class="text-center">
+     <div class="col-md-3 col-sm-offset-1 blog-sidebar">
+      <div class="sidebar-module sidebar-module-inset">
+       <img class="img-thumbnail" src="https://rawgit.com/helen-anderson/travel-website/master/img/Helen-headshot-blog.jpg" alt="Helen">
+        <br/>
+       <div class="text-center">
         <a onclick="" href="https://twitter.com/helencodes" class="btn btn-social-icon btn-lg btn-twitter"><i class="fa fa-twitter"></i></a>
         <a onclick="" href="https://www.linkedin.com/in/helenanderson26" class="btn btn-social-icon btn-lg btn-linkedin"><i class="fa fa-linkedin"></i></a>
         <a onclick="" href="https://github.com/helen-anderson" class="btn btn-social-icon btn-lg btn-github"><i class="fa fa-github"></i></a>
-    </div> 
-          <p>I'm Helen, The Travelling Kiwi, living in London and taking on the world, one trip at a time.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>My Favourites</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">My Last Trip</a></li>
-              <li><a href="#">When You Get Here</a></li>
-              <li><a href="#">101 Things To Do</a></li>
-              <li><a href="#">London Life</a></li>
-              <li><a href="#">When You Leave</a></li>
-              <li><a href="#">You're Home ... Now What?</a></li>
-            </ol>
-          </div>
-     
+           <p>I'm Helen, The Travelling Kiwi <br / >Living in London and taking on the world, one trip at a time.</p>
+              <a href="#">My Last Trip</a><br />
+              <a href="#">When You Get Here</a><br />
+              <a href="#">101 Things To Do</a><br />
+              <a href="#">London Life</a><br />
+              <a href="#">When You Leave</a><br />
+              <a href="#">You're Home ... Now What?</a>
+            </div>
+           </div>
         </div>
+
+
+<!-- Form-->
+      <div class="col-md-3 col-sm-offset-1 blog-sidebar">
+      <div class="sidebar-module sidebar-module-inset">
+      <div class="text-center">
+      <p>Sign Up for Weekly Emails</p>
       </div>
-    </div>
+       <form>
+       <div class="form-group">
+        <input type="text" class="form-control" placeholder="name"><br />
+        <input type="text" class="form-control" placeholder="email">
+       </div>
+      </form>
+
+       <div class="text-center">
+       <button type="submit" class="btn btn-danger">Sign Up</button>
+      </div>
+
+       </div>
+        </div>
+   </div>
+
+
+
+<!-- FOOTER-->
 
 <!-- Pagination -->
+<div class="col-md-12 blog-main">
 <div class="text-center">
 <ul class="pagination">
-              <li class="disabled"><a href="#">«</a></li>
-              <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">»</a></li>
-            </ul>
+       <li class="disabled"><a href="#">«</a></li>
+       <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+       <li><a href="#">2</a></li>
+       <li><a href="#">3</a></li>
+       <li><a href="#">4</a></li>
+       <li><a href="#">5</a></li>
+       <li><a href="#">»</a></li>
+       </ul>
 </div>
+</div>
+
             
-
-
-
 <!-- Jquery and Bootstrap -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
