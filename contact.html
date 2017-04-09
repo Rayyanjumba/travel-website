@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <title>The Travelling Kiwi</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,105 +9,109 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="script.js"></script>
-  </head>
+</head>
 
-<body>   
+<body>
 
-<!-- NAVIGATION -->
+    <!-- NAVIGATION -->
 
-  <!-- Navbar -->
-  <div class="navbar-wrapper">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <!-- Navbar -->
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
 
-  <!-- Logo and Hamburger-->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <!-- Logo and Hamburger-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-         <a href="#" class="navbar-brand">THE TRAVELLING KIWI</a>
+                    <a href="#" class="navbar-brand">THE TRAVELLING KIWI</a>
+                </div>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+
+                    <!-- Drop down menu 1-->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Africa</a></li>
+                            <li><a href="#">Asia</a></li>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">North America</a></li>
+                            <li><a href="#">South America</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Drop down menu 2-->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">How to London <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Before You Go</a></li>
+                            <li><a href="#">When You Get Here</a></li>
+                            <li><a href="#">101 Things To Do</a></li>
+                            <li><a href="#">London Life</a></li>
+                            <li><a href="#">When You Leave</a></li>
+                            <li><a href="#">You're Home ... Now What?</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- Buttons on right-->
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+
+
+            </div>
+            <!-- Wrapper-->
+        </nav>
+        <!-- Inverse-->
     </div>
+    <!-- Container fluid-->
+
+
+
+
+
+    <!-- FOOTER-->
+
+    <!-- Pagination -->
+    <div class="col-md-12 blog-main">
+        <div class="text-center">
+            <ul class="pagination">
+                <li class="disabled"><a href="#">«</a></li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+        </div>
     </div>
 
-  <!-- Menu Items -->
-    <div class="collapse navbar-collapse" id="mainNavBar">
-      <ul class="nav navbar-nav">
-       <li><a href="./index.html">Home</a></li>
-       <li><a href="./about.html">About</a></li>
-     <li class="active"><a href="./contact.html">Contact</a></li>
 
-  <!-- Drop down menu 1-->
-
-       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-           <li><a href="#">Africa</a></li>
-           <li><a href="#">Asia</a></li>
-           <li><a href="#">Australia</a></li>
-           <li><a href="#">Europe</a></li>
-           <li><a href="#">North America</a></li>
-           <li><a href="#">South America</a></li>
-           </ul>
-        </li>
-
-  <!-- Drop down menu 2-->
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">How to London <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Before You Go</a></li>
-              <li><a href="#">When You Get Here</a></li>
-              <li><a href="#">101 Things To Do</a></li>
-              <li><a href="#">London Life</a></li>
-              <li><a href="#">When You Leave</a></li>
-              <li><a href="#">You're Home ... Now What?</a></li>
-             </ul>
-          </li>
-
-          </ul>
-  <!-- Buttons on right-->
-
-
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
- 
-
-          </div> <!-- Wrapper-->
-          </nav> <!-- Inverse-->
-          </div> <!-- Container fluid-->
-          
-
-
-
-
-<!-- FOOTER-->
-
-<!-- Pagination -->
-<div class="col-md-12 blog-main">
-<div class="text-center">
-<ul class="pagination">
-       <li class="disabled"><a href="#">«</a></li>
-       <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-       <li><a href="#">2</a></li>
-       <li><a href="#">3</a></li>
-       <li><a href="#">4</a></li>
-       <li><a href="#">5</a></li>
-       <li><a href="#">»</a></li>
-       </ul>
-</div>
-</div>
-
-            
-<!-- Jquery and Bootstrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Jquery and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
